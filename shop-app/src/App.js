@@ -27,7 +27,7 @@ export default class App extends Component {
                changeCategory={this.changeCategory} currentCategory={this.state.currentCategory}/>
             </Col>
             <Col xs="9">
-              <ProductList info={productInfo}  currentCategory={this.state.currentCategory}/>
+              <ProductList info={productInfo}  currentCategory={this.state.currentCategory} isLoggedIn={true} />
             </Col>
           </Row>
         </Container>
